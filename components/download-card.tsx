@@ -22,7 +22,11 @@ export default function DownloadCard({
         <Icon />
         <h2 className="md:text-2xl text-xl font-semibold">{name}</h2>
 
-        <Link href={downloadURL} className="ml-auto">
+        <Link
+          href={downloadURL}
+          aria-label={`Download SKlauncher ${name}`}
+          className="ml-auto"
+        >
           <DownloadIcon />
         </Link>
       </div>
