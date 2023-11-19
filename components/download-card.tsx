@@ -28,7 +28,7 @@ export default function DownloadCard({
       </div>
 
       <div className="space-y-1">
-        <label className="text-zinc-500">SHA256 digest</label>
+        <label className="text-zinc-500">SHA256 digest (copy)</label>
         <CopyText text={sha256Digest} />
       </div>
     </section>
