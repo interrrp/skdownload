@@ -17,7 +17,7 @@ export default function DownloadCard({
   sha256Digest,
 }: DownloadCardProps) {
   return (
-    <section className="p-8 border rounded-md flex flex-col justify-between gap-4 w-full lg:max-w-lg max-w-xs">
+    <section className="p-8 border hover:border-orange-400 hover:bg-gradient-to-b hover:bg-orange-400/10 duration-100 rounded-md flex flex-col justify-between gap-4 w-full lg:max-w-lg max-w-xs">
       <div className="flex items-center gap-3">
         <Icon />
         <h2 className="md:text-2xl text-xl font-semibold">{name}</h2>
