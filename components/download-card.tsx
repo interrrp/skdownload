@@ -17,7 +17,7 @@ export default function DownloadCard({
   sha256Digest,
 }: DownloadCardProps) {
   return (
-    <section className="p-8 border w-fit rounded-md space-y-4">
+    <section className="p-8 border w-full max-w-lg rounded-md space-y-4">
       <div className="flex items-center gap-3 w-full">
         <Icon />
         <h2 className="text-2xl font-semibold">{name}</h2>
@@ -29,7 +29,7 @@ export default function DownloadCard({
 
       <div className="space-y-1">
         <label className="text-zinc-500">SHA256 digest</label>
-        <CopyText text={sha256Digest} cutAt={30} />
+        <CopyText text={sha256Digest} />
       </div>
     </section>
   );

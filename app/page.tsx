@@ -6,7 +6,7 @@ export default function Home() {
     <main className="p-16">
       <h1 className="text-3xl font-semibold mb-4">Download SKlauncher 3.12</h1>
 
-      <div className="flex gap-4">
+      <div className="flex flex-wrap gap-4">
         <DownloadCard
           name="Universal (JAR)"
           icon={PackageIcon}
