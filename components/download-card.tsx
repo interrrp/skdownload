@@ -17,10 +17,10 @@ export default function DownloadCard({
   sha256Digest,
 }: DownloadCardProps) {
   return (
-    <section className="p-8 border w-full max-w-lg rounded-md space-y-4">
-      <div className="flex items-center gap-3 w-full">
+    <section className="p-8 border rounded-md flex flex-col justify-between gap-4 w-full lg:max-w-lg max-w-xs">
+      <div className="flex items-center gap-3">
         <Icon />
-        <h2 className="text-2xl font-semibold">{name}</h2>
+        <h2 className="md:text-2xl text-xl font-semibold">{name}</h2>
 
         <Link href={downloadURL} className="ml-auto">
           <DownloadIcon />

@@ -3,10 +3,12 @@ import { Grid2X2Icon, PackageIcon } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="p-16">
-      <h1 className="text-3xl font-semibold mb-4">Download SKlauncher 3.12</h1>
+    <main className="md:p-16 p-8 flex flex-col justify-center items-center h-full">
+      <h1 className="md:text-3xl text-2xl font-semibold mb-8">
+        Download SKlauncher 3.12
+      </h1>
 
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         <DownloadCard
           name="Universal (JAR)"
           icon={PackageIcon}
