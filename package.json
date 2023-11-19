@@ -1,5 +1,6 @@
 {
-  "name": "mini-next",
+  "name": "skdownload",
+  "description": "⛏️ A direct link to SKlauncher downloads",
   "version": "0.1.0",
   "private": true,
   "scripts": {
